@@ -1,3 +1,4 @@
+const myPizza = [2, 3, 4, 5, 6, -2, 5];
 
 //map
 const addedPizza = myPizza.map(
@@ -13,7 +14,6 @@ const Filtered = myPizza.filter(value => value >= 3)
 console.log(Filtered);
 
 //reduce
-const myPizza = [2, 3, 4, 5, 6, -2, 5];
 
 let valueee = myPizza.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;    
