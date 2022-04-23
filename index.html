@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <p>
+            add your blog post here!
+        </p>
+        <label for="postTitle">post title</label>
+        <input type="text" id="postTitle" name="name" required minlength="4" maxlength="120" size="10">
+        <div id="spacer"></div>
+        <label for="postDescription">post description</label>
+        <input type="text" id="postDescription" name="name" required minlength="4" maxlength="1600" size="10">
+        <div id="spacer"></div>
+
+        <input type="submit" value="Submit" onclick="addItem()">
+        <div id="root">
+
+        </div>
+        <script src="addpizza.js"></script>
+    </div>
+</body>
+
+</html>

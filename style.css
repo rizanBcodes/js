@@ -1,0 +1,26 @@
+#wrap{
+    width: 800px;
+    margin: auto;
+}
+
+input{
+    vertical-align: true;
+    width: 400px;
+    display: inline-block;
+    margin: auto;
+    padding: 4px;
+}
+
+#spacer{
+    height: 10px;
+    width: 100%;
+}
+
+.post{
+    padding: 6px;
+    height: 200;
+    margin-bottom: auto;
+    width: 400px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
