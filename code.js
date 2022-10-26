@@ -9,7 +9,7 @@ const addedPizza = myPizza.map(
 console.log(addedPizza);
 
 //filter
-const Filtered = myPizza.filter(value => value >= 3)
+const Filtered = myPizza.filter(value >= 3)
 
 console.log(Filtered);
 
